@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Web Design Mastery | Falcon</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#">
+            <img src="assets/logo-white.png" alt="logo" class="logo-white" />
+            <img src="assets/logo-dark.png" alt="logo" class="logo-dark" />
+          </a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-3-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#service">Service</a></li>
+        <li><a href="#cart">Food Cart</a></li>
+      </ul>
+      <div class="nav__btns">
+        <button class="btn"><i class="ri-search-line"></i></button>
+        <button class="btn"><i class="ri-shopping-bag-line"></i></button>
+      </div>
+    </nav>
+
+    <header class="section__container header__container" id="home">
+      <div class="header__image">
+        <div class="image">
+          <img src="assets/header.png" alt="header" />
+        </div>
+        <div class="header__image__footer">
+          <img src="assets/user-1.jpg" alt="user" />
+          <p>oferecemos entrega rapida e sabor inesquecivel</p>
+        </div>
+      </div>
+      <div class="header__content">
+        <div class="header__top">
+          <span><img src="assets/header.png" alt="header" /></span>
+          <h2>Alimente-se de forma saudável, mantenha-se saudável.</h2>
+        </div>
+        <h1>seja o <span>primeiro</span> Entrega e retirada fácil</h1>
+        <p>
+         Seja o primeiro a experimentar opções de entrega sem complicações e retirada fácil, pensadas para poupar o seu tempo e satisfazer os seus desejos!
+        </p>
+        <div class="header__btns">
+          <button class="btn">
+            Faça seu pedido agora
+            <span><i class="ri-arrow-right-line"></i></span>
+          </button>
+          <button class="btn">Reserve uma mesa</button>
+        </div>
+        <div class="header__flex">
+          <div class="header__card">
+            <img src="assets/header_content-1.jpg" alt="header__content" />
+            <h4>Biryani de Frango</h4>
+          </div>
+          <div class="header__card">
+            <img src="assets/header_content-2.jpg" alt="header__content" />
+            <h4>Handi Mutton</h4>
+          </div>
+          <div class="header__card">
+            <img src="assets/header_content-1.jpg" alt="header__content" />
+            <h4>Kala Bhuna</h4>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container menu__container" id="menu">
+      <h2 class="section__header">nossos pratos populares <span>Pratos</span></h2>
+      <div class="menu__grid">
+        <div class="menu__card">
+          <img src="assets/menu-1.jpg" alt="menu" />
+          <h4>Kala Bhuna</h4>
+          <p>
+            Um prato de carne bovina cozido lentamente, rico e saboroso, infundido com especiarias aromáticas
+para um sabor tradicional.
+          </p>
+          <div class="menu__card__footer">
+            <h3>$50.99</h3>
+            <button class="btn">adicionar ao carrinho</button>
+          </div>
+        </div>
+        <div class="menu__card">
+          <img src="assets/menu-2.jpg" alt="menu" />
+          <h4>Handi Mutton</h4>
+          <p>
+            Carneiro tenro cozido lentamente até ficar perfeito em uma panela com uma mistura de especiarias para
+uma refeição autêntica e reconfortante.
+          </p>
+          <div class="menu__card__footer">
+            <h3>$75.49</h3>
+            <button class="btn">adicionar ao carrinho</button>
+          </div>
+        </div>
+        <div class="menu__card">
+          <img src="assets/menu-3.jpg" alt="menu" />
+          <h4>Egg Curry</h4>
+          <p>
+            Ovos cozidos mergulhados em um molho de curry rico e picante, combinando sabores tradicionais
+          </p>
+          <div class="menu__card__footer">
+            <h3>$30.99</h3>
+            <button class="btn">adicionar ao carrinho</button>
+          </div>
+        </div>
+      </div>
+      <div class="menu__btn">
+        <button class="btn">
+          See All Dishes
+          <span><i class="ri-arrow-right-line"></i></span>
+        </button>
+      </div>
+    </section>
+
+    <section class="service" id="service">
+      <div class="section__container service__container">
+        <h2 class="section__header">Como funciona? <span>Funciona</span></h2>
+        <div class="service__grid">
+          <div class="service__card">
+            <div>
+              <img src="assets/service-1.png" alt="service" />
+            </div>
+            <h4>Escolha suas refeições</h4>
+            <p>
+              Navegue pelo nosso delicioso menu repleto de uma variedade de pratos
+e selecione seus favoritos sem esforço para satisfazer seus desejos.
+            </p>
+            <a href="#">
+              Leia mais
+              <span><i class="ri-arrow-right-line"></i></span>
+            </a>
+          </div>
+          <div class="service__card">
+            <div>
+              <img src="assets/service-2.png" alt="service" />
+            </div>
+            <h4>Acompanhe seu pedido</h4>
+            <p>
+             Acompanhe o andamento da sua refeição com atualizações em tempo real da cozinha
+até sua localização, garantindo uma experiência perfeita e transparente.
+            </p>
+            <a href="#">
+              Leia mais
+              <span><i class="ri-arrow-right-line"></i></span>
+            </a>
+          </div>
+          <div class="service__card">
+            <div>
+              <img src="assets/service-3.png" alt="service" />
+            </div>
+            <h4>Escolha suas refeições</h4>
+            <p>
+              Desfrute da máxima conveniência com opções fáceis de retirada ou
+entrega em domicílio, levando suas refeições favoritas diretamente para você.
+            </p>
+            <a href="#">
+                Leia mais
+              <span><i class="ri-arrow-right-line"></i></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="banner" id="cart">
+      <div class="section__container banner__container">
+        <div class="banner__image">
+          <img src="assets/banner.jpg" alt="banner" />
+        </div>
+        <div class="banner__content">
+          <h2 class="section__header">
+            Alimente-se de forma saudável, mantenha-se saudável. <span>Saudável</span>
+          </h2>
+          <p>
+           No Food Plaza, acreditamos que uma boa alimentação é a base de uma
+vida saudável. Nossas refeições são preparadas com ingredientes frescos e
+nutrição balanceada, ajudando você a manter um estilo de vida saudável enquanto
+desfruta de sabores deliciosos.
+          </p>
+          <div class="banner__btn">
+            <button class="btn">
+              leia mais
+              <span><i class="ri-arrow-right-line"></i></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container customer__container">
+      <div class="customer__image">
+        <img src="assets/customer.png" alt="customer" />
+      </div>
+      <div class="customer__content">
+        <h2 class="section__header">Clientes<span>Reação</span></h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="customer__card">
+                <div class="customer__card__header">
+                  <div>Compra verificada</div>
+                  <span>23 de outubro de 2024</span>
+                </div>
+                <p>
+                    A qualidade da comida é excepcional, e a entrega é sempre rápida.
+                    Adoro como eles oferecem opções saudáveis que não comprometem o
+                    sabor!
+                </p>
+                <div class="customer__card__footer">
+                  <img src="assets/customer-1.jpg" alt="customer" />
+                  <div>
+                    <h4>Sarah Johnson</h4>
+                    <h5>Nutricionista</h5>
+                    <div class="customer__rating">
+                      <span><i class="ri-star-fill"></i></span>
+                      <span><i class="ri-star-fill"></i></span>
+                      <span><i class="ri-star-fill"></i></span>
+                      <span><i class="ri-star-fill"></i></span>
+                      <span><i class="ri-star-half-fill"></i></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="customer__card">
+                <div class="customer__card__header">
+                  <div>compra verificada</div>
+                  <span>15 de novenbro de 2024</span>
+                </div>
+                <p>
+                    Estou impressionado com a variedade de opções saudáveis disponíveis.
+                    Cada refeição que pedi foi deliciosa e me fez sentir bem por
+                    fazer escolhas alimentares melhores.
+                </p>
+                <div class="customer__card__footer">
+                  <img src="assets/customer-2.jpg" alt="customer" />
+                  <div>
+                    <h4>Rajesh Patel</h4>
+                    <h5>Engenheiro de Software</h5>
+                    <div class="customer__rating">
+                      <span><i class="ri-star-fill"></i></span>
+                      <span><i class="ri-star-fill"></i></span>
+                      <span><i class="ri-star-fill"></i></span>
+                      <span><i class="ri-star-fill"></i></span>
+                      <span><i class="ri-star-fill"></i></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="customer__card">
+                <div class="customer__card__header">
+                  <div>compra verificada</div>
+                  <span>24 de novembro de 2024</span>
+                </div>
+                <p>
+                    A conveniência de poder pedir refeições saudáveis e tê-las entregues
+                    rapidamente é incomparável. O serviço ao cliente também é excelente,
+                    tornando cada experiência agradável.
+                </p>
+                <div class="customer__card__footer">
+                  <img src="assets/customer-3.jpg" alt="customer" />
+                  <div>
+                    <h4>Emily Brown</h4>
+                    <h5>Personal Trainer</h5>
+                    <div class="customer__rating">
+                      <span><i class="ri-star-fill"></i></span>
+                      <span><i class="ri-star-fill"></i></span>
+                      <span><i class="ri-star-fill"></i></span>
+                      <span><i class="ri-star-fill"></i></span>
+                      <span><i class="ri-star-half-fill"></i></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- If we need navigation buttons -->
+          <div class="customer__swiper__controls">
+            <button class="btn swiper-prev">
+              <i class="ri-arrow-left-line"></i>
+            </button>
+            <button class="btn swiper-next">
+              <i class="ri-arrow-right-line"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <a href="#" class="footer__logo">
+            <img src="assets/logo-dark.png" alt="logo" />
+          </a>
+          <p>
+            Nosso objetivo é proporcionar uma experiência culinária excepcional,
+            combinando conveniência, sabor e nutrição para nossos clientes.
+          </p>
+        </div>
+        <div class="footer__col">
+          <h4>produtos</h4>
+          <ul class="footer__links">
+            <li><a href="#">inicio</a></li>
+            <li><a href="#">produtos</a></li>
+            <li><a href="#">sobre</a></li>
+            <li><a href="#">contato</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Lançamentos</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Social</h4>
+          <ul class="footer__links">
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Youtube</a></li>
+            <li><a href="#">LinkedIn</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Legal</h4>
+          <ul class="footer__links">
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Cookies</a></li>
+            <li><a href="#">Licenses</a></li>
+            <li><a href="#">Settings</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 Web Design Mastery. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
